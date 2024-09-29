@@ -1,0 +1,135 @@
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: azure;
+}
+
+
+.inicio{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    line-height: 50px;
+    height: 100vh;
+    background-color: azure;
+    
+}    
+
+.navegacao{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    font-weight: bold;
+    padding-top: 15px;
+}
+
+img{
+    display: block;
+    border: 2px solid white;
+    border-radius: 5px;
+    width: 350px;
+    height: 350px;
+}
+
+.textoimagem{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    padding-top: 55px;
+}
+
+.austin{
+    background-color: rgba(0, 255, 255, 0.777);
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 25px;
+    height: 100vh;
+
+}
+
+.thriller{
+    background-color: rgb(1, 13, 47);
+    color: white;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 25px;
+    height: 100vh;
+}
+
+.bigchair{
+    background-color: gray;
+    color: white;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 25px;
+    height: 100vh;
+}
+
+.blond{
+    background-color: rgb(200, 200, 200);
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 25px;
+    height: 100vh;
+}
+
+.grace{
+    background-color: rgb(65, 11, 109);
+    color: white;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 25px;
+    height: 100vh;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    gap: 50px;
+}
+
+.container1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    gap: 15px;
+}
+
+.box{
+    background-color: crimson;
+    color: white;
+    text-align: justify;
+    line-height: 35px;
+    border-radius: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+
+}
+
+.box1{
+    background-color: crimson;
+    color: white;
+    text-align: left;
+    border-radius: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+
+}
+
+.textext{
+    font-size: large;
+    line-height: 35px;
+}
